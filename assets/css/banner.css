@@ -16,7 +16,7 @@
 .banner__button {
   margin-top: 16px;
   border-radius: 8px;
-  background: var(--salmo, #f05454);
+  background: var(--laranja);
   color: var(--branco);
   font-family: var(--fonte-principal);
   font-size: 16px;
@@ -40,5 +40,19 @@
 @media screen and (min-width: 428px) {
   .banner__titulo{
     width: 70%;
+  }
+}
+
+
+/* img arranjos */
+
+.imagem__arranjos{
+  width: 100%;
+  margin: 32px 0;
+}
+
+@media screen and (min-width:428px) {
+  .imagem__arranjos{
+    height: 534px;
   }
 }

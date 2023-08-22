@@ -3,13 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 32px;
   padding: 32px 16px;
 }
 
 .vantagens__card {
   display: flex;
-  width: 282px;
+  width: 100%;
   text-align: center;
   flex-direction: column;
   justify-content: center;
@@ -18,7 +19,7 @@
 }
 
 .vantagens__titulo {
-  color: var(--azul-fraco);
+  color: var(--verde-claro);
   font-family: var(--fonte-secundaria);
   font-size: 24px;
   font-weight: 700;
@@ -38,6 +39,7 @@
 
   .vantagens__card{
     justify-content: flex-start;
+    width: 282px;
   }
 }
 

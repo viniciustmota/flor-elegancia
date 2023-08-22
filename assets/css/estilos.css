@@ -11,12 +11,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 * {
-  --salmao: #F05454;
-  --azul-acinzentado-escuro: #213345;
+  --laranja: #F18500;
+  --verde-escuro: #064635;
+  --verde-claro: #73B941;
+  --verde:#085F48;
   --branco: #fff;
-  --azul-acinzentado: #30475e;
-  --azul-fraco: #5B9DFF;
-  --azul-claro:#86E5FF;
   --fonte-principal: "Inter";
   --fonte-secundaria: "Montserrat";
   --fonte-nome-empresa: "Anek Tamil";
@@ -28,5 +27,5 @@ body {
   color: var(--branco);
   font-weight: 400;
   font-size: 16px;
-  background-color: var(--azul-acinzentado);
+  background-color: var(--verde);
 }

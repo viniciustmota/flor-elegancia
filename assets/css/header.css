@@ -1,5 +1,5 @@
 .cabecalho nav {
-  background-color: var(--azul-acinzentado-escuro);
+  background-color: var(--verde-escuro);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +38,7 @@
 .lista-menu__titulo,
 .lista-menu__item {
   padding: 1em;
-  background-color: var(--azul-acinzentado-escuro);
+  background-color: var(--verde-escuro);
 }
 
 .lista-menu__titulo {
@@ -66,18 +66,18 @@
 }
 
 .cabecalho__item a:hover{
-  color: var(--salmao);
+  color: var(--laranja);
 }
 
 .cabecalho__btn a {
   border-radius: 8px;
-  border: 2px solid var(--salmao);
-  color: var(--salmao);
+  border: 2px solid var(--laranja);
+  color: var(--laranja);
   padding: 8px 16px;
 }
 
 .cabecalho__btn a:hover{
-  background: var(--salmao);
+  background: var(--laranja);
   color: var(--branco);
 }
 
