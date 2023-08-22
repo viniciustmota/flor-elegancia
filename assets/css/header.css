@@ -1,0 +1,108 @@
+.cabecalho nav {
+  background-color: var(--azul-acinzentado-escuro);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 19px;
+  flex-wrap: wrap;
+}
+
+.cabecalho__bloco-logo {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.cabecalho__titulo {
+  display: none;
+  font-family: var(--fonte-nome-empresa);
+}
+
+.lista-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 96px;
+  width: 60vw;
+}
+
+.ativado {
+  display: block;
+}
+
+.nav ~ .lista-menu {
+  display: block;
+  position: absolute;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+  padding: 1em;
+  background-color: var(--azul-acinzentado-escuro);
+}
+
+.lista-menu__titulo {
+  color: var(--salmao);
+  font-weight: 700;
+}
+
+.lista-menu__link {
+  color: var(--branco);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cabecalho__lista {
+  display: none;
+}
+
+.cabecalho__item a , .cabecalho__btn a{
+  color: var(--branco);
+  font-family: var(--fonte-principal);
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.cabecalho__item a:hover{
+  color: var(--salmao);
+}
+
+.cabecalho__btn a {
+  border-radius: 8px;
+  border: 2px solid var(--salmao);
+  color: var(--salmao);
+  padding: 8px 16px;
+}
+
+.cabecalho__btn a:hover{
+  background: var(--salmao);
+  color: var(--branco);
+}
+
+@media screen and (min-width: 428px) {
+  .cabecalho {
+    flex-direction: row;
+  }
+  .cabecalho__titulo {
+    display: block;
+    color: var(--branco);
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width:720px) {
+    .cabecalho__menu-hamburguer,
+  .lista-menu,
+  .cabecalho__login {
+    display: none;
+  }
+
+  .cabecalho__lista {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+}
