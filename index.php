@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polimota</title>
+    <title>Flor & Elegância</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
@@ -60,10 +60,13 @@
         <a href="./cadastro.php" class="banner__button">faça o dia de alguem mais feliz</a>
     </section>
 
-    <picture>
+    <!-- <picture>
         <source srcset="./assets/img/arranjo de flores amarelas grande.jpg" media="(min-width: 1024px)">
         <img loading="lazy" src="./assets/img/arranjo de flores amarelas pequena.svg" alt="" srcset="" class="imagem__arranjos">
-    </picture>
+    </picture>i -->
+
+    <img src="./assets/img/arranjo de flores amarelas pequena.svg" alt="" class="imagem__arranjos pequena">
+    <img src="./assets/img/arranjo de flores amarelas grande.svg" alt="" class="imagem__arranjos grande">
 
     <section class="vantagens">
         <div class="vantagens__card">

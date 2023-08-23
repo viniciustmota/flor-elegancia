@@ -44,7 +44,7 @@
 }
 
 @media screen and (min-width:1728px) {
-  .vantagens__card{
-    width: 100%;
+  .vantagens{
+    justify-content: space-around;
   }
 }

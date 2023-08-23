@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polimota</title>
+    <title>Flor & Elegância</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
@@ -21,27 +21,29 @@
             <div class="cabecalho__bloco-logo">
                 <img src="./assets/img/hamburguer.svg" alt="icone de hamburguer" class="cabecalho__menu-hamburguer">
                 <ul class="lista-menu">
-                    <li class="lista-menu__titulo">Cursos</li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Ingles</a>
+                        <a href="#" class="lista-menu__link">ARRANJOS</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Espanhol</a>
+                        <a href="#" class="lista-menu__link">NOSSAS FLORES</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Italiano</a>
+                        <a href="#" class="lista-menu__link">QUESTIONARIO</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Alemão</a>
+                        <a href="#" class="lista-menu__link">CONTATO</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">WHATSAPP</a>
                     </li>
                 </ul>
                 <img src="./assets/img/logo.svg" alt="Logo Polimota" class="cabecalho__logo">
-                <p class="cabecalho__titulo">POLIMOTA</p>
+                <p class="cabecalho__titulo">Flor & Elegância</p>
             </div>
             <ul class="cabecalho__lista">
-                <li class="cabecalho__item"><a href="#">Cursos</a></li>
+                <li class="cabecalho__item"><a href="#">FLORES</a></li>
                 <li class="cabecalho__item"><a href="#">Entrar</a></li>
-                <li class="cabecalho__btn"><a href="./cadastro.php">Quero me matricular</a></li>
+                <li class="cabecalho__btn"><a href="./cadastro.php">Encante alguém especial</a></li>
             </ul>
             <img src="./assets/img/user.svg" alt="" srcset="" class="cabecalho__login">
         </nav>
@@ -73,56 +75,35 @@
                 <label for="cpf" class="questionario__label">Insira seu CPF</label>
                 <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" class="questionario__resposta" required maxlength="11">
 
-                <label for="rg" class="questionario__label">Insira seu RG</label>
-                <input type="text" id="rg" name="rg" placeholder="Digite seu RG" class="questionario__resposta" required maxlength="10">
+                <label for="flores" class="questionario__label">Qual a sua flor preferida?</label>
+                <input type="text" id="flores" name="flores" placeholder="Conte-nos a sua flor preferida" class="questionario__resposta" required>
 
-                <label for="cursos" class="questionario__label">Qual lingua você irá aprender?</label>
-                <select name="cursos" id="cursos" class="questionario__resposta">
-                    <option value="Ingles">Ingles</option>
-                    <option value="Espanhol">Espanhol</option>
-                    <option value="Italiano">Italiano</option>
-                    <option value="Alemão">Alemão</option>
-                </select>
-
-                <label class="questionario__label">Nivel de conhecimento:</label>
+                <label class="questionario__label">Custuma comprar flores?</label>
                 <div class="questionario__radiobtn">
-                    <input type="radio" name="Nivel" id="nivel-basico" class="questionario__resposta" value="Básico" required> <label for="nivel-basico">Básico</label>
-                    <input type="radio" name="Nivel" id="nivel-intermediario" class="questionario__resposta" value="Intermediario" required><label for="nivel-intermediario">Intermediario</label>
-                    <input type="radio" name="Nivel" id="nivel-avancado" class="questionario__resposta" value="Avançado" required><label for="nivel-avancado">Avançado</label>
+                    <input type="radio" name="compraFlores" id="sim" class="questionario__resposta" value="Sim" required> <label for="sim">Sim</label>
+                    <input type="radio" name="compraFlores" id="nao" class="questionario__resposta" value="Não" required><label for="nao">Não</label>
                 </div>
-
-                <label for="deficiencia" class="questionario__label">Possui alguma deficiencia?</label>
-                <select name="deficiencia" id="deficiencia" class="questionario__resposta">
-                    <option value="Não">Não</option>
-                    <option value="Autismo">Autismo</option>
-                    <option value="Auditiva">Auditiva</option>
-                    <option value="Visual">Visual</option>
-                    <option value="Mental">Mental</option>
-                    <option value="Multipla">Multipla</option>
-                    <option value="Física">Física</option>
-                </select>
 
                 <input type="submit" value="Enviar" class="questionario__btn"></input>
             </form>
 
-            <img src="./assets/img/Homem aprendendo.svg" alt="Homem aprendendo ingles pela polimota" class="questionario__img">
+            <img src="./assets/img/Mulher com flores.svg" alt="Mulher segurando um arranjo de flores" class="questionario__img">
         </div>
     </section>
 
     <footer class="rodape">
-        <p class="rodape__texto">Grupo Mota</p>
+        <p class="rodape__texto">Kauã & Luan</p>
         <section class="rodape__topicos">
             <div class="rodape__servicos">
                 <p class="rodape__titulo">Empresas</p>
-                <a href="#" class="rodape__item"><img src="./assets/img/mota informatica.svg" alt="Logo Mota Informatica">Mota Informatica</a>
-                <a href="#" class="rodape__item"><img src="./assets/img/vettel.svg" alt="Logo Vettel SafeDrive">Vettel
-                    SafeDrive</a>
+                <a href="#" class="rodape__item"><img src="./assets/img/SafeSchool.svg" alt="Logo SafeSchool Tech">SafeSchool Tech</a>
+                <a href="#" class="rodape__item"><img src="./assets/img/AgroVitalis.svg" alt="Logo AgroVitalis">AgroVitalis</a>
             </div>
 
             <div class="rodape__servicos">
                 <p class="rodape__titulo">Projetos Sociais</p>
-                <a href="#" class="rodape__item"><img src="./assets/img/Juntos pelo Mar.svg" alt="Logo Projeto Juntos pelo Mar">Juntos pelo Mar</a>
-                <a href="#" class="rodape__item"><img src="./assets/img/Esporte todos os dias.svg" alt="Logo Projeto Esporte todos os dias"> Esporte todos os dias</a>
+                <a href="#" class="rodape__item"><img src="./assets/img/Dia florido.svg" alt="Logo Dia florido">Dia florido</a>
+                <a href="#" class="rodape__item"><img src="./assets/img/OpenAgro.svg" alt="Logo OpenAgro">OpenAgro</a>
             </div>
         </section>
     </footer>

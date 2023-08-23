@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dados</title>
+    <title>Flor & Elegância</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/estilos.css">
@@ -22,10 +22,8 @@
     $email = $_GET['email'];
     $telefone = $_GET['telefone'];
     $cpf = $_GET['cpf'];
-    $curso = $_GET['cursos'];
-    $nivel = $_GET['Nivel'];
-    $deficiencia = $_GET['deficiencia'];
-    $rg = $_GET['rg'];
+    $flor = $_GET['flores'];
+    $compraFlores = $_GET['compraFlores'];
     ?>
 
     <header class="cabecalho">
@@ -33,27 +31,29 @@
             <div class="cabecalho__bloco-logo">
                 <img src="./assets/img/hamburguer.svg" alt="icone de hamburguer" class="cabecalho__menu-hamburguer">
                 <ul class="lista-menu">
-                    <li class="lista-menu__titulo">Cursos</li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Ingles</a>
+                        <a href="#" class="lista-menu__link">ARRANJOS</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Espanhol</a>
+                        <a href="#" class="lista-menu__link">NOSSAS FLORES</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Italiano</a>
+                        <a href="#" class="lista-menu__link">QUESTIONARIO</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Alemão</a>
+                        <a href="#" class="lista-menu__link">CONTATO</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">WHATSAPP</a>
                     </li>
                 </ul>
                 <img src="./assets/img/logo.svg" alt="Logo Polimota" class="cabecalho__logo">
-                <p class="cabecalho__titulo">POLIMOTA</p>
+                <p class="cabecalho__titulo">Flor & Elegância</p>
             </div>
             <ul class="cabecalho__lista">
-                <li class="cabecalho__item"><a href="#">Cursos</a></li>
+                <li class="cabecalho__item"><a href="#">FLORES</a></li>
                 <li class="cabecalho__item"><a href="#">Entrar</a></li>
-                <li class="cabecalho__btn"><a href="./cadastro.php">Quero me matricular</a></li>
+                <li class="cabecalho__btn"><a href="./cadastro.php">Encante alguém especial</a></li>
             </ul>
             <img src="./assets/img/user.svg" alt="" srcset="" class="cabecalho__login">
         </nav>
@@ -81,31 +81,29 @@ e comece os estudos") ?>
                         <li class='dados__item'>E-mail: <span>$email</span></li>
                         <li class='dados__item'>Telefone: <span>$telefone</span></li>
                         <li class='dados__item'>CPF: <span>$cpf</span></li>
-                        <li class='dados__item'>RG: <span>$rg</span></li>
-                        <li class='dados__item'>Curso: <span>$curso</span></li>
-                        <li class='dados__item'>Nível: <span>$nivel</span></li>
-                        <li class='dados__item'>Possui deficiência: <span>$deficiencia</span></li>      
+                        <li class='dados__item'>Flor preferida: <span>$flor</span></li>   
+                        <li class='dados__item'>Costuma comprar flores: <span>$compraFlores</span></li>   
                     </ul>
                 </div>
                 "); ?>
             <button type="submit" class="dados__btn">confimar</button>
         </div>
-        <img src="./assets/img/Globo.svg" alt="Imagem de um globo da terra" class="dados__img">
+        <img src="./assets/img/Flor vermelha.svg" alt="Imagem de uma flor vermelha" class="dados__img">
     </section>
 
     <footer class="rodape">
-        <p class="rodape__texto">Grupo Mota</p>
+        <p class="rodape__texto">Kauã & Luan</p>
         <section class="rodape__topicos">
             <div class="rodape__servicos">
                 <p class="rodape__titulo">Empresas</p>
-                <a href="#" class="rodape__item"><img src="./assets/img/mota informatica.svg" alt="Logo Mota Informatica">Mota Informatica</a>
-                <a href="#" class="rodape__item"><img src="./assets/img/vettel.svg" alt="Logo Vettel SafeDrive">Vettel SafeDrive</a>
+                <a href="#" class="rodape__item"><img src="./assets/img/SafeSchool.svg" alt="Logo SafeSchool Tech">SafeSchool Tech</a>
+                <a href="#" class="rodape__item"><img src="./assets/img/AgroVitalis.svg" alt="Logo AgroVitalis">AgroVitalis</a>
             </div>
 
             <div class="rodape__servicos">
                 <p class="rodape__titulo">Projetos Sociais</p>
-                <a href="#" class="rodape__item"><img src="./assets/img/Juntos pelo Mar.svg" alt="Logo Projeto Juntos pelo Mar">Juntos pelo Mar</a>
-                <a href="#" class="rodape__item"><img src="./assets/img/Esporte todos os dias.svg" alt="Logo Projeto Esporte todos os dias"> Esporte todos os dias</a>
+                <a href="#" class="rodape__item"><img src="./assets/img/Dia florido.svg" alt="Logo Dia florido">Dia florido</a>
+                <a href="#" class="rodape__item"><img src="./assets/img/OpenAgro.svg" alt="Logo OpenAgro">OpenAgro</a>
             </div>
         </section>
     </footer>

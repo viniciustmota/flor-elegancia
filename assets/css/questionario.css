@@ -3,7 +3,6 @@
   padding: 32px 16px;
   flex-direction: column;
   gap: 24px;
-  background-color: var(--azul-escuro);
 }
 
 .questionario__titulo {
@@ -25,7 +24,7 @@
 
 .questionario__resposta {
   border-radius: 8px;
-  border: 2px solid var(--salmao);
+  border: 2px solid var(--laranja);
   background: var(--branco);
   padding: 4px 8px;
   margin-bottom: 8px;
@@ -37,7 +36,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  background: var(--salmao);
+  background: var(--laranja);
   color: var(--branco);
   font-size: 24px;
   font-weight: 700;

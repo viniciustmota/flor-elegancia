@@ -38,21 +38,28 @@
 }
 
 @media screen and (min-width: 428px) {
-  .banner__titulo{
+  .banner__titulo {
     width: 70%;
   }
 }
 
-
 /* img arranjos */
 
-.imagem__arranjos{
+.imagem__arranjos {
   width: 100%;
   margin: 32px 0;
 }
 
-@media screen and (min-width:428px) {
-  .imagem__arranjos{
-    height: 534px;
+.grande {
+  display: none;
+}
+@media screen and (min-width: 428px) {
+
+  .pequena {
+    display: none;
+  }
+
+  .grande {
+    display: block;
   }
 }
