@@ -51,7 +51,7 @@
     </header>
 
     <section class="questionario">
-        <h2 class="questionario__titulo">Conte um pouco sobre você</h2>
+        <h2 class="questionario__titulo">Responda a enquete e contribua conosco</h2>
         <div class="questionario__grid">
             <form action="dados.php" method="get" class="questionario__form">
                 <label for="nome" class="questionario__label">Qual o seu nome?</label>
@@ -60,29 +60,29 @@
                 <label for="idade" class="questionario__label">Qual a sua idade?</label>
                 <input type="number" id="idade" name="idade" placeholder="Digite sua idade" class="questionario__resposta" required>
 
-                <label for="sexo" class="questionario__label">Qual o seu sexo?</label>
-                <div class="questionario__radiobtn">
-                    <input type="radio" name="sexo" id="sexo-m" class="questionario__resposta" value="Masculino" required> <label for="sexo-m">Masculino</label>
-                    <input type="radio" name="sexo" id="sexo-f" class="questionario__resposta" value="Feminino" required> <label for="sexo-f">Feminino</label>
-                </div>
-
-                <label for="email" class="questionario__label">Insira seu e-mail</label>
-                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" class="questionario__resposta" required>
-
-                <label for="telefone" class="questionario__label">Insira seu telefone</label>
-                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" class="questionario__resposta" required maxlength="15">
-
-                <label for="cpf" class="questionario__label">Insira seu CPF</label>
-                <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" class="questionario__resposta" required maxlength="11">
-
                 <label for="flores" class="questionario__label">Qual a sua flor preferida?</label>
                 <input type="text" id="flores" name="flores" placeholder="Conte-nos a sua flor preferida" class="questionario__resposta" required>
 
-                <label class="questionario__label">Custuma comprar flores?</label>
+                <label for="ocasiao-compra" class="questionario__label">Qual é a ocasião mais comum para a compra de flores?</label>
+                <input type="text" id="ocasiao-compra" name="ocasiao-compra" placeholder="Conte-nos a ocasião mais comum para comprar flores na sua opnião" class="questionario__resposta" required>
+
+                <label for="cheiro" class="questionario__label">Quais aromas de flores você mais gosta?</label>
+                <input type="text" id="aromas" name="cheiro" placeholder="Conte-nos os seus aromas de flores preferidos" class="questionario__resposta" required>
+
+                <label class="questionario__label">Você costuma comprar flores para presentear alguém?</label>
                 <div class="questionario__radiobtn">
                     <input type="radio" name="compraFlores" id="sim" class="questionario__resposta" value="Sim" required> <label for="sim">Sim</label>
                     <input type="radio" name="compraFlores" id="nao" class="questionario__resposta" value="Não" required><label for="nao">Não</label>
                 </div>
+
+                <label class="questionario__label">Você prefere flores sazonais ou flores disponíveis o ano todo?</label>
+                <div class="questionario__radiobtn">
+                    <input type="radio" name="preferencia" id="sazonais" class="questionario__resposta" value="Flores sazonais" required> <label for="sazonais">Flores sazonais</label>
+                    <input type="radio" name="preferencia" id="disponiveis" class="questionario__resposta" value="Flores disponíveis o ano todo" required><label for="disponiveis">flores disponíveis o ano todo</label>
+                </div>
+
+
+
 
                 <input type="submit" value="Enviar" class="questionario__btn"></input>
             </form>

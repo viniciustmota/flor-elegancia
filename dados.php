@@ -18,10 +18,9 @@
     <?php
     $nome = $_GET['nome'];
     $idade = $_GET['idade'];
-    $sexo = $_GET['sexo'];
-    $email = $_GET['email'];
-    $telefone = $_GET['telefone'];
-    $cpf = $_GET['cpf'];
+    $ocasiao = $_GET['ocasiao-compra'];
+    $aromas = $_GET['cheiro'];
+    $preferencia = $_GET['preferencia'];
     $flor = $_GET['flores'];
     $compraFlores = $_GET['compraFlores'];
     ?>
@@ -65,8 +64,7 @@
             <?php echo ("Olá, $nome") ?>
         </p>
         <h1 class="banner__titulo">
-            <?php echo ("Confirme seus dados
-e comece os estudos") ?>
+            <?php echo ("Confirme as respostas e envie") ?>
         </h1>
     </section>
 
@@ -77,12 +75,11 @@ e comece os estudos") ?>
                     <ul class='dados__lista'>
                         <li class='dados__item'>Nome: <span>$nome</span></li>
                         <li class='dados__item'>Idade: <span>$idade anos</span></li>
-                        <li class='dados__item'>Genêro: <span>$sexo</span></li>
-                        <li class='dados__item'>E-mail: <span>$email</span></li>
-                        <li class='dados__item'>Telefone: <span>$telefone</span></li>
-                        <li class='dados__item'>CPF: <span>$cpf</span></li>
+                        <li class='dados__item'>Ocasião para comprar flores: <span>$ocasiao</span></li>
+                        <li class='dados__item'>Aromas de flores preferidos: <span>$aromas</span></li>
+                        <li class='dados__item'>Prefere: <span>$preferencia</span></li>
                         <li class='dados__item'>Flor preferida: <span>$flor</span></li>   
-                        <li class='dados__item'>Costuma comprar flores: <span>$compraFlores</span></li>   
+                        <li class='dados__item'>Costuma comprar flores para presenter alguém: <span>$compraFlores</span></li>   
                     </ul>
                 </div>
                 "); ?>

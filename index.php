@@ -68,6 +68,8 @@
     <img src="./assets/img/arranjo de flores amarelas pequena.svg" alt="" class="imagem__arranjos pequena">
     <img src="./assets/img/arranjo de flores amarelas grande.svg" alt="" class="imagem__arranjos grande">
 
+    <img src="./assets/img/logotipo.svg" alt="" srcset="">
+
     <section class="vantagens">
         <div class="vantagens__card">
             <img src="./assets/img/Flor.svg" alt="Icone de uma flor" class="vantagens__img">
